@@ -6,15 +6,15 @@ app = Flask(__name__)
 
 @app.route("/")
 def homepage():
-    return "Vamos pra cima"
+    return
 
-@app.route("/contatos")
+@app.route("/")
 def contatos():
     return "Nossos contatos são: E-mail: trabalhounivesp@gmail.com Telefone(11)99999-9999"
 
-@app.route("/crianca")
-def infantil():
-    return "AQUI AS CRIANÇAS BRINCAM E SE DIVERTEM"
+@app.route("/")
+def usuários():
+    return
 #colocar o site no ar
 
 if __name__=="__main__":
